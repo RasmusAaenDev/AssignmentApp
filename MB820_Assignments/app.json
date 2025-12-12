@@ -1,8 +1,8 @@
 {
-  "id": "9616a9b7-6b7d-4777-a16a-6e6f924cfc6e",
+  "id": "c7b80003-e0e9-4d04-a864-79dfa38f78ba",
   "name": "MB820_Assignments",
   "publisher": "Rasmus",
-  "version": "1.0.0.0",
+  "version": "1.0.0.5",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -10,22 +10,30 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+      "name": "E-Document Core",
+      "publisher": "Microsoft",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 50200,
       "to": 50249
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
