@@ -11,8 +11,6 @@ codeunit 50200 "Assignment Mgt."
     begin
         // A lot of functionality
         // Simulate long running procedure
-        Sleep(200);
-
         Assignment.Status := Assignment.Status::Completed;
         Assignment.Modify();
     end;
@@ -21,8 +19,6 @@ codeunit 50200 "Assignment Mgt."
     begin
         // A lot of functionality
         // Simulate long running procedure
-        Sleep(200);
-
         Assignment.Status := Assignment.Status::"In Progress";
         Assignment.Modify();
     end;
